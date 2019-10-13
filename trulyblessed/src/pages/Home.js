@@ -29,10 +29,6 @@ const Styles = styled.div`
     font-size: 200%;
   }
 
-  .email {
-    font-size: 125%;
-  }
-
   .seeGallery {
     font-size: 300%;
   }
@@ -44,6 +40,93 @@ const Styles = styled.div`
     width: 100vw;
     width: 100%;
   }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .title {
+      font-family: "Fugaz One", cursive;
+      letter-spacing: 0.7em;
+      font-size: 200%;
+      text-transform: uppercase;
+    }
+
+    .instagramLink {
+      font-size: 150%;
+    }
+
+    .seeGallery {
+      font-size: 170%;
+    }
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .title {
+      font-family: "Fugaz One", cursive;
+      letter-spacing: 0.7em;
+      font-size: 170%;
+      text-transform: uppercase;
+    }
+
+    .instagramLink {
+      font-size: 140%;
+    }
+
+    .seeGallery {
+      font-size: 160%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .title {
+      font-family: "Fugaz One", cursive;
+      letter-spacing: 0.5em;
+      font-size: 160%;
+      text-transform: uppercase;
+    }
+
+    .instagramLink {
+      font-size: 130%;
+    }
+
+    .seeGallery {
+      font-size: 150%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .title {
+      font-family: "Fugaz One", cursive;
+      letter-spacing: 0.7em;
+      font-size: 120%;
+      text-transform: uppercase;
+    }
+
+    .instagramLink {
+      font-size: 110%;
+    }
+
+    .seeGallery {
+      font-size: 150%;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .title {
+      font-family: "Fugaz One", cursive;
+      letter-spacing: 0.7em;
+      font-size: 120%;
+      text-transform: uppercase;
+    }
+
+    .instagramLink {
+      font-size: 110%;
+    }
+
+    .seeGallery {
+      font-size: 150%;
+    }
+  }
 `;
 
 function Home() {
@@ -51,19 +134,12 @@ function Home() {
     <Styles>
       <div className="pageOne">
         <div className="pageOneContent">
-          <div>
-            My personal instagram
-            <br />
-            <a href="https://www.instagram.com/itisandyy/" target="_blank">
-              <FaInstagram />
-            </a>
-          </div>
           <div className="title">Trulyblessed</div>
           <div className="email"></div>
           <div className="instagramLink">
             <p>
               DM us on instagram or email trulyblessedapparel1@gmail.com for
-              custom pieces
+              custom pieces,
               <br />
               <a
                 href="https://instagram.com/trulyblessedapparel?igshid=lyc9v1wakska"
@@ -71,6 +147,13 @@ function Home() {
               >
                 <FaInstagram />
               </a>
+              <div>
+                or contact me at my personal instagram
+                <br />
+                <a href="https://www.instagram.com/itisandyy/" target="_blank">
+                  <FaInstagram />
+                </a>
+              </div>
             </p>
           </div>
 
