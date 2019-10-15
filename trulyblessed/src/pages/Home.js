@@ -138,8 +138,8 @@ function Home() {
           <div className="email"></div>
           <div className="instagramLink">
             <p>
-              us on instagram or email trulyblessedapparel1@gmail.com for custom
-              pieces,
+              DM us on instagram or email trulyblessedapparel1@gmail.com for
+              custom pieces,
               <br />
               <a
                 href="https://instagram.com/trulyblessedapparel?igshid=lyc9v1wakska"
